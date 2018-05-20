@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="/node_modules/babel-polyfill/dist/polyfill.js"></script>
+    <!-- <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script> -->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/graphdracula/1.0.3/dracula.js"></script> -->
+</head>
+<body>
+    
+    <div id="canvas"></div>
+
+    <div style="position:absolute; top:0px; margin-top:10pxs">
+        <label for="firstVertex">Виберіть початкову вершину</label>
+        <select name="firstVertex" id="firstVertex">
+
+        </select>
+        <label for="secondVertex">Виберіть кінцеву вершину</label>
+        <select name="secondVertex" id="secondVertex">
+
+        </select>
+
+        <button id="addEdge">Додати ребро</button>
+        <button id="deleteEdge">Видалити ребро</button>
+
+        <label for="deleteVertex">Виберіть вершину</label>
+        <select name="deleteVertex" id="deleteVertex">
+
+        </select>
+
+        <button id="deleteVertexBtn">Видалити вершину</button>
+    </div>
+
+    <script src="bundle.js" type="text/javascript"></script>
+    
+</body>
+</html>

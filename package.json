@@ -1,0 +1,20 @@
+{
+  "name": "lab1_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "browserify src/app.js --debug | exorcist src/bundle.map.js > src/bundle.js",
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "exorcist": "^1.0.1",
+    "graphdracula": "^1.2.1",
+    "lodash": "^4.17.10",
+    "raphael": "^2.2.7"
+  }
+}
